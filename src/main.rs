@@ -1,25 +1,23 @@
-use std::io;
+mod get_input;
+mod process_input;
 
-fn get_input() -> String {
-    let mut input = String::new();
-    io::stdin()
-        .read_line(&mut input)
-        .expect("Failed to read line");
-    input = input.trim().to_string();
-    return input;
-}
+use get_input::get_input;
+use process_input::process_input;
 
 fn main() {
     let mut run = true;
     let mut user_input;
 
     while run {
-        println!("number?");
-        user_input = get_input();
-        println!("user input: {}", user_input);
+        println!("Length");
+        println!("1) inch -> cm");
+        println!("2) cm -> inch");
+        println!("\nTemperature");
+        println!("3) fahrenheit -> celsius");
+        println!("4) celsius -> fahrenheit");
+        println!("\nChoose the action (enter its number):");
 
-        if user_input == "end" {
-            run = false;
-        }
+        user_input = get_input();
+        run = process_input(user_input);
     }
 }

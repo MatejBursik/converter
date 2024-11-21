@@ -1,2 +1,2 @@
 # Ultimate converter
-Going to do unit conversions and simple calculations
+Going to do unit conversions
