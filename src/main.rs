@@ -9,13 +9,14 @@ fn main() {
     let mut user_input;
 
     while run {
-        println!("Length");
+        println!("0) Exit");
+        println!("\nLength");
         println!("1) inch -> cm");
         println!("2) cm -> inch");
         println!("\nTemperature");
         println!("3) fahrenheit -> celsius");
         println!("4) celsius -> fahrenheit");
-        println!("\nChoose the action (enter its number):");
+        println!("\nChoose the functionality (enter its number):");
 
         user_input = get_input();
         run = process_input(user_input);
