@@ -2,6 +2,8 @@
 Going to do unit conversions
 
 ## Working features
+
+#### Length converters
 - [x] inch -> cm
 - [x] cm -> inch
 - [ ] feet -> cm
@@ -10,5 +12,7 @@ Going to do unit conversions
 - [ ] m -> feet
 - [ ] mile (statute) -> km
 - [ ] km -> mile (statute)
-- [ ] fahrenheit -> celsius
-- [ ] celsius -> fahrenheit
+
+#### Temperature converters
+- [x] fahrenheit -> celsius
+- [x] celsius -> fahrenheit

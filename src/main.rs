@@ -13,9 +13,15 @@ fn main() {
         println!("\nLength");
         println!("1) inch -> cm");
         println!("2) cm -> inch");
+        println!("3) feet -> cm");
+        println!("4) cm -> feet");
+        println!("5) feet -> m");
+        println!("6) m -> feet");
+        println!("7) mile (statute) -> km");
+        println!("8) km -> mile (statute)");
         println!("\nTemperature");
-        println!("3) fahrenheit -> celsius");
-        println!("4) celsius -> fahrenheit");
+        println!("9) fahrenheit -> celsius");
+        println!("10) celsius -> fahrenheit");
         println!("\nChoose the functionality (enter its number):");
 
         user_input = get_input();
