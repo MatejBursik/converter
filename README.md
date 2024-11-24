@@ -8,8 +8,8 @@ Going to do unit conversions
 - [x] cm -> inch
 - [x] feet -> cm
 - [x] cm -> feet
-- [ ] feet -> m
-- [ ] m -> feet
+- [x] feet -> m
+- [x] m -> feet
 - [ ] mile (statute) -> km
 - [ ] km -> mile (statute)
 
