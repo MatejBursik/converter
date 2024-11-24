@@ -6,8 +6,8 @@ Going to do unit conversions
 #### Length converters
 - [x] inch -> cm
 - [x] cm -> inch
-- [ ] feet -> cm
-- [ ] cm -> feet
+- [x] feet -> cm
+- [x] cm -> feet
 - [ ] feet -> m
 - [ ] m -> feet
 - [ ] mile (statute) -> km
